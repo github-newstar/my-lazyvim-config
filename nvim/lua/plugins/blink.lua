@@ -73,8 +73,8 @@ return {
       ["<Tab>"] = { "snippet_forward", "fallback" },
       ["<Up>"] = { "select_prev", "fallback" },
       ["<Down>"] = { "select_next", "fallback" },
-      ["C-j"] = { "select_next", "fallback" },
-      ["C-k"] = { "select_prev", "fallback" },
+      ["C-n"] = { "select_next", "fallback" },
+      ["C-p"] = { "select_prev", "fallback" },
 
       ["<CR>"] = { "select_and_accept", "fallback" },
       ["<C-space>"] = { "show", "show_documentation", "hide_documentation" },
